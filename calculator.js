@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 //Create a new Route
 app.get("/", function (req, res) {
-  res.send("This shoul be in the Page");
+  res.send("This the First Page");
 });
 
 app.get("/HomePage", function (req, res) {
